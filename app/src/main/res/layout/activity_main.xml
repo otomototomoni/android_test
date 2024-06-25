@@ -90,4 +90,10 @@
         android:layout_marginTop="10dp"
         android:text="@string/button_msg" />
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:entries="@array/lv_cocktaillist"/>
 </LinearLayout>
